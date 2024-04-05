@@ -99,7 +99,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logo{
@@ -117,5 +116,50 @@ body{
     position: absolute;;
     overflow: hidden;
     border-radius: 50%;
-
 }
+
+.main-circle img{
+    mix-blend-mode:color-dodge;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.circle{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    background-color: red;
+    align-self: center;
+    justify-self: center;
+}
+
+.circle-1{
+    background: url(images/landing/Beast.png) center no-repeat;
+    background-size: cover;
+}
+
+.circle-2{
+    background: url(images/landing/carnival.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.circle-3{
+    background: url(images/landing/frog.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.circle-4{
+    background: url(images/landing/Thing.png) center no-repeat;
+    background-size: cover;
+}
+
+
