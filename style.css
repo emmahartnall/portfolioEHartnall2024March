@@ -113,13 +113,16 @@ body{
 .main-circle{
     width: 55rem;
     height: 55rem;
-    position: absolute;;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
     overflow: hidden;
     border-radius: 50%;
 }
 
 .main-circle img{
-    mix-blend-mode:color-dodge;
+    max-width: 100%;
+  /*  mix-blend-mode:color-dodge; */
 }
 
 .circles{
@@ -144,7 +147,7 @@ body{
 }
 
 .circle-1{
-    background: url(images/landing/Beast.png) center no-repeat;
+    background: url(images/landing/croc.png) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .5rem dotted #a14b1a;;
@@ -171,4 +174,18 @@ body{
     border: .7rem dotted #a14b1a;;
 }
 
+.featured-text{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(227, 227, 240);
+    width: 0;
+    word-wrap: break-word;
+}
 
+.featured-text-1{
+    margin: 0 auto 0 10rem;
+}
+
+.featured-text-2{
+    margin: 0 10rem 0 auto;
+}
