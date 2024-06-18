@@ -12,6 +12,11 @@
     font-family: 'Jura', sans-serif;
 }
 
+img{
+    aspect-ratio: auto 10/10;
+    max-widty: 50%;
+}
+
 html{
     font-size: 62.5%;
     font-palette: white;
