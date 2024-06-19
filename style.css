@@ -152,28 +152,28 @@ body{
 }
 
 .circle-1{
-    background: url(images/landing/croc.png) center no-repeat;
+    background: url(images/landing/croc.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .5rem dotted #a14b1a;;
 }
 
 .circle-2{
-    background: url(images/landing/carnival.jpg) center no-repeat;
+    background: url(images/landing/Dragon.webp) center no-repeat;
     background-size: cover;
     border: 0.5rem dashed #ffbd07;
     background-clip: content-box;
 }
 
 .circle-3{
-    background: url(images/landing/frog.jpg) center no-repeat;
+    background: url(images/landing/mushroom.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: 1rem double #9b0e0e;
 }
 
 .circle-4{
-    background: url(images/landing/Thing.png) center no-repeat;
+    background: url(images/landing/Xmas.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .7rem dotted #a14b1a;;
