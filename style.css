@@ -116,7 +116,7 @@ body{
 
 .main-circle{
     aspect-ratio: 1/1;
-    width: 25%;
+    width: 35%;
     align-self: center;
     justify-self: center;
     position: absolute;
@@ -141,8 +141,8 @@ body{
 }
 
 .circle{
-    width: 22rem;
-    height: 22rem;
+    aspect-ratio: 1/1;
+    width: 15%;
     border-radius: 50%;
     background-color: red;
     align-self: center;
