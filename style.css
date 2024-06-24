@@ -29,6 +29,7 @@ html{
     z-index: 300;
     transform: translate(-50%, -50%);
     opacity: 0;
+    pointer-events: none;
 }
 
 @keyframes mouseCircleAnimation{
@@ -136,6 +137,12 @@ body{
     position: absolute;
     overflow: hidden;
     border-radius: 50%;
+    transition: width 0.2s, height 0.2s;
+}
+
+.main-circle:hover{
+    width: 75rem;
+    height: 75rem;
 }
 
 .main-circle img{
@@ -207,4 +214,15 @@ body{
 
 .featured-text-2{
     margin: 0 10rem 0 auto;
+}
+
+.main-btn{
+    position: absolute;
+    width: 13rem;
+    height: 13rem;
+    background-color: #9b0e0e;
+    border-radius: 50%;
+    bottom: 3rem;
+    border: 0.2rem dotted #fff;
+
 }
