@@ -141,8 +141,7 @@ body{
 }
 
 .main-circle:hover{
-    width: 75rem;
-    height: 75rem;
+    width: 45%;
 }
 
 .main-circle img{
