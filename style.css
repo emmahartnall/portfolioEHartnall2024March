@@ -148,6 +148,8 @@ body{
 .main-circle img{
     max-width: 100%;
     opacity: 0.9;
+    position: relative;
+    transition: left 2s, top 2s;
 }
 
 .circles{
@@ -170,6 +172,7 @@ body{
     justify-self: center;
     opacity: 0.5;
     position: relative;
+    transition: left 2s, top 2s;
 }
 
 .circle-1{
@@ -224,5 +227,4 @@ body{
     border-radius: 50%;
     bottom: 3rem;
     border: 0.2rem dotted #fff;
-
 }
