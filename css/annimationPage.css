@@ -93,7 +93,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-image: url(images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     color: rgba(250, 248, 248, 0.774);
 }
 
@@ -175,28 +175,28 @@ body{
 }
 
 .circle-1{
-    background: url(images/landing/croc.webp) center no-repeat;
+    background: url(../images/landing/croc.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .5rem dotted #a14b1a;;
 }
 
 .circle-2{
-    background: url(images/landing/Dragon.webp) center no-repeat;
+    background: url(../images/landing/Dragon.webp) center no-repeat;
     background-size: cover;
     border: 0.5rem dashed #ffbd07;
     background-clip: content-box;
 }
 
 .circle-3{
-    background: url(images/landing/mushroom.webp) center no-repeat;
+    background: url(../images/landing/mushroom.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: 1rem double #9b0e0e;
 }
 
 .circle-4{
-    background: url(images/landing/Xmas.webp) center no-repeat;
+    background: url(../images/landing/Xmas.webp) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .7rem dotted #a14b1a;;
