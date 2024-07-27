@@ -13,8 +13,8 @@ header {
 }
 
 .heading {
-    font-size: 2rem;
+    font-size: 2vw;
+    text-align: center;
     font-weight: bold;
     color: aliceblue;
-    margin-left: 40px; /* Adjust to position heading away from icon */
 }
