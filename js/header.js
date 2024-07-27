@@ -3,7 +3,8 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <header>
-          <h1>Hartnall Digital Solutions</h1>
+          <img src="./images/businessLogoInverted.png"alt="Company Icon" class="icon">
+          <h1 class="heading"> Hartnall Digital Solutions</h1>
           <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
