@@ -7,7 +7,8 @@ class MyHeader extends HTMLElement {
           <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <!--<li><a href="about.html">About</a></li>-->
+                <li><a href="people.html">People</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="websites.html">Websites</a></li>
                 <!--<li><a href="databases.html">DataBases</a></li>
