@@ -1,5 +1,6 @@
 .profile-image {
     float: left;
+    margin-right: 40px;
     width: 5vw; /* Set a fixed width for the photo */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Optional: makes the photo circular */
