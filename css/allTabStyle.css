@@ -35,10 +35,26 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
-nav ul li a {
-
-    text-decoration: none;
+/* Default link color */
+header nav ul li a {
+    color: #5d7ea1; /* Blue color */
+    text-decoration: none; /* Remove underline */
 }
+
+/* Link color on hover */
+header nav ul li a:hover {
+    color: #c54da7; /* Darker blue */
+}
+
+/* Link color on active/visited */
+header nav ul li a:visited {
+    color: #a384b3; /* Purple */
+}
+
+header nav ul li a:active {
+    color: #cf6c6c; /* Red */
+}
+
 main {
     padding: 20px;
 }
