@@ -1,0 +1,23 @@
+.profile-image {
+    width: 200px; /* Set a fixed width for the photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+}
+
+.about-person {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Two columns: one for text, one for photo */
+    gap: 20px; /* Space between text and photo */
+    align-items: center; /* Vertically center items */
+}
+
+.text-content {
+    float: left; /* Float text content to the left */
+    width: 60%; /* Adjust width as needed */
+}
+
+.photo {
+    height: 20%;
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+}
