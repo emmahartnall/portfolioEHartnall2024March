@@ -6,7 +6,9 @@ class MyHeader extends HTMLElement {
           <h1>Hartnall Digital Solutions</h1>
           <nav>
             <ul>
-                <li><a href="about.html">Emma Hartnall | Hall</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="websites.html">Websites</a></li>
                 <li><a href="databases.html">DataBases</a></li>
                 <li><a href="dataAnalysis.html">Data Analysis</a></li>

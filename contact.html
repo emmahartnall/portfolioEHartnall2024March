@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Developer Portfolio</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script src="js/header.js"></script>
+    <script src="js/contactPage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
     <script type="text/javascript">
         (function() {
             // https://dashboard.emailjs.com/admin/account
@@ -28,8 +32,6 @@
             });
         }
     </script>
-    <script src="js/header.js"></script>
-    <script src="js/contactPage.js"></script>
     <link rel="stylesheet" href="css/contactPage.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -37,6 +39,7 @@
     <my-header></my-header>
     <main>
         <section>
+        
             <div id="toast" class="toast">Your email has been sent successfully!</div>
             <h1>Contact Emma</h1>
             <form id="contact-form">
