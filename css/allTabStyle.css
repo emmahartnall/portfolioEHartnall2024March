@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    
+    background-image: url('../images/homePageBackground.jpg');
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -8,9 +8,26 @@ body {
 }
 header {
     background: #209878;
-   
     padding: 1rem 0;
     text-align: center;
+}
+
+.transparent-section{
+    background-color: white;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.background-image{
+    background-image: url('../images/homePageBackground.jpg');
+    opacity:50%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 8px;
 }
 nav ul {
     list-style: none;
@@ -29,7 +46,6 @@ main {
 }
 footer {
     background: #209878;
-
     text-align: center;
     padding: 1rem 0;
     position: fixed;

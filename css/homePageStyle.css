@@ -4,7 +4,12 @@ body {
     padding: 0;
     color: aliceblue;
     box-sizing: border-box;
+    
+}
+
+.background-image{
     background-image: url('../images/homePageBackground.jpg');
+    opacity:80%;
     background-size: cover;
     background-position: center;
 }
