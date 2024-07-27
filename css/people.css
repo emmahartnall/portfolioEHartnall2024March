@@ -12,3 +12,12 @@
     gap: 20px;
     align-items: left;
 }
+
+h1{
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1vw;
+}
