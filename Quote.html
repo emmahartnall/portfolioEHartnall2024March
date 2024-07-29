@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hartnall Digital Solutions - People</title>
+    <link rel="stylesheet" href="css/allTabStyle.css">
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <my-header></my-header>
+    <script src="js/header.js"></script>
+    <main>
+        <section class="transparent-section">
+            <div class="form-container">
+                <h1>Quote Request Form</h1>
+                <form action="/submit-quote" method="post">
+                    
+                    
+                    <div class="form-group">
+                        <label for="idpages">Number of Pages or tabs:</label>
+                        <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idpages">Number of Pictures:</label>
+                        <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idfunctions">Number of Functions:</label>
+                        <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="additional-info">Additional Information:</label>
+                        <textarea id="additional-info" name="additional-info" rows="4" placeholder="Any additional information or special requests"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <button type="submit">Get Quote</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hartnall Digital Solutions. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>

@@ -6,7 +6,6 @@
     <title>Hartnall Digital Solutions - Contact Page</title>
     
     <script src="js/header.js"></script>
-    <script src="js/contactPage.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     
     <script type="text/javascript">
@@ -25,22 +24,29 @@
                     .then(() => {
                         console.log('SUCCESS!');
                         showToast();
-                        alert("Your email has been sent successfully!");
                     }, (error) => {
                         console.log('FAILED...', error);
                     });
             });
         }
     </script>
+    <script type="text/javascript">
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.className = 'toast2';
+            setTimeout(() => { toast.className = toast2.className.replace('toast.show', ''); }, 2500);
+        }
+    </script>
+    
     <link rel="stylesheet" href="css/contactPage.css">
     <link rel="stylesheet" href="css/allTabStyle.css">
     <link rel="stylesheet" href="css/heading.css">
 </head>
 <body>
-    <div id="toast" class="toast">Your email has been sent successfully!</div>
     <my-header></my-header>
     <main>
         <section class="transparent-section">
+            <div id="toast" class="toast2">Your email has been sent successfully!</div>
             <h1>Contact Us</h1>
             <form id="contact-form">
                 <input type="hidden" name="contact_number" value="697483">
