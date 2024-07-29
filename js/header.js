@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
       this.innerHTML = `
         <header>
           <img src="./images/businessLogoInverted.png"alt="Company Icon" class="icon">
-          <h1 class="heading"> Hartnall Digital Solutions</h1>
+          <h1 class="heading">Hartnall Digital Solutions</h1>
           <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>

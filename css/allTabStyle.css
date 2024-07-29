@@ -45,16 +45,16 @@ header nav ul li a {
 
 /* Link color on hover */
 header nav ul li a:hover {
-    color: #c54da7; /* Darker blue */
+    color: #793869; /* Darker blue */
 }
 
 /* Link color on active/visited */
 header nav ul li a:visited {
-    color: #a384b3; /* Purple */
+    color: #5db198; /* Purple */
 }
 
 header nav ul li a:active {
-    color: #cf6c6c; /* Red */
+    color: #459381; /* Red */
 }
 
 main {
