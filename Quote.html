@@ -14,9 +14,19 @@
     <main>
         <section class="transparent-section">
             <div class="form-container">
-                <h1>Quote Request Form</h1>
+                <h1>Price Estimate or Quote</h1>
+                <p>We only quote for a small piece of work at a time</p>
+                <p>A project can be made up of multiple pieces of work and their corresponding quotes.</p>
                 <form action="/submit-quote" method="post">
-                    
+                    <div class="form-group">
+                        <label for="idServiceType">Service Type:</label>
+                        <select id="idServiceType" name="serviceType">
+                            <option value="web">WebSite Creation</option>
+                            <option value="data">Data Cleansing and Analysis</option>
+                            <option value="doc">Technical Documentation</option>
+                            <option value="test">Automated testing</option>
+                        </select>
+                    </div>
                     
                     <div class="form-group">
                         <label for="idpages">Number of Pages or tabs:</label>
