@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="css/allTabStyle.css">
     <link rel="stylesheet" href="css/heading.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/quote.css">
 </head>
 <body>
     <my-header></my-header>
     <script src="js/header.js"></script>
+   
     <main>
         <section class="transparent-section">
             <div class="form-container">
@@ -18,29 +20,33 @@
                 <p>We only quote for a small piece of work at a time</p>
                 <p>A project can be made up of multiple pieces of work and their corresponding quotes.</p>
                 <form action="/submit-quote" method="post">
+                    
                     <div class="form-group">
                         <label for="idServiceType">Service Type:</label>
                         <select id="idServiceType" name="serviceType">
+                            <option value=""></option>
                             <option value="web">WebSite Creation</option>
                             <option value="data">Data Cleansing and Analysis</option>
                             <option value="doc">Technical Documentation</option>
                             <option value="test">Automated testing</option>
                         </select>
                     </div>
+                    <div id="webFields" class="hiddenElement">
                     
-                    <div class="form-group">
-                        <label for="idpages">Number of Pages or tabs:</label>
-                        <input type="number" id="idpages" name="quantity" min="1" max="10" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="idpages">Number of Pages or tabs:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="idpages">Number of Pictures:</label>
-                        <input type="number" id="idpages" name="quantity" min="1" max="10" required>
-                    </div>
+                        <div class="form-group">
+                            <label for="idpages">Number of Pictures:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="idfunctions">Number of Functions:</label>
-                        <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
+                        <div class="form-group">
+                            <label for="idfunctions">Number of Functions:</label>
+                            <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
+                        </div>
                     </div>
                     
                     <div class="form-group">
@@ -49,9 +55,10 @@
                     </div>
                     
                     <div class="form-group">
-                        <button type="submit">Get Quote</button>
+                        <button type="submit">Generate Price Estimate</button>
                     </div>
                 </form>
+                <script src="js/quote.js"></script>
             </div>
         </section>
     </main>
