@@ -83,3 +83,9 @@ document.getElementById('idServiceType').addEventListener('change', function() {
             break;
     }
 });
+
+function calcPriceEstimate(){
+
+    document.getElementById('result').innerHTML = "Estimated price: $300"
+
+}

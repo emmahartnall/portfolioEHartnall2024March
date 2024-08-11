@@ -20,7 +20,7 @@
                 <h1>Price Estimate</h1>
                 <p>We only quote for a few functions or pages at a time.</p>
                 <p>A project may be made up of multiple pieces of work, with there corresponding quotes.</p>
-                <form action="/submit-quote" method="post">
+                <form id="calcPriceEstimate">
 
                     <div class="form-group">
                         <label for="jobDesciption">Job Description:</label>
@@ -116,9 +116,10 @@
                     </div>
                     
                     <div class="form-group">
-                        <button type="submit">Generate Price Estimate</button>
+                        <button type="button" onclick="calcPriceEstimate()">Generate Price Estimate</button>
                     </div>
                 </form>
+                <div id="result"></div>
                 <script src="js/quote.js"></script>
             </div>
         </section>
