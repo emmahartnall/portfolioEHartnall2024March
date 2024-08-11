@@ -62,40 +62,39 @@ function calcPriceEstimate(){
     var resultOfCalculation = "yet to be determined"
 
     switch (serviceName) {
-        case 'test':
-            resultOfCalculation = "";
-            
+        case 'data_cleansing':
             
             break;
-        case 'business':
-            
+        case 'data_analysis':
             
             break;
-        case 'data':
-            
-            
+        case 'data_models':
+           
             break;
         case 'database':
-            
-            
+           
             break;
         case 'model':
            
-            
             break;
         case 'sysAna':
             
-            
             break;
         case 'doc':
-            
-            
+          
+            break;
+        case 'test_auto':
+           
+            break;
+        case 'test_Reg':
+           
+            break;
+        case 'test-manual':
+           
             break;
         case 'web':
            
-            
             break;
     }
     document.getElementById('result').innerHTML = resultOfCalculation;
-
 }
