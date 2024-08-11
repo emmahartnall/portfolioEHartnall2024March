@@ -1,21 +1,50 @@
 document.getElementById('idServiceType').addEventListener('change', function() {
     
     switch (this.value) {
-        case 'web':
-            webSiteCreationFields.classList.remove('hiddenElement');
+        case 'test':
+            testFields.classList.remove('hiddenElement');
+            businessFields.classList.add('hiddenElement');
+            webSiteCreationFields.classList.add('hiddenElement');
+            dataCleaningFields.classList.add('hiddenElement');
+            break;
+        case 'business':
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.remove('hiddenElement');
+            webSiteCreationFields.classList.add('hiddenElement');
             dataCleaningFields.classList.add('hiddenElement');
             break;
         case 'data':
-            dataCleaningFields.classList.remove('hiddenElement');
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.add('hiddenElement');
+            dataFields.classList.remove('hiddenElement');
+            webSiteCreationFields.classList.add('hiddenElement');
+            break;
+        case 'database':
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.add('hiddenElement');
+            dataCleaningFields.classList.add('hiddenElement');
+            databaseFields.classList.remove('hiddenElement');
+            webSiteCreationFields.classList.add('hiddenElement');
+            break;
+        case 'model':
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.add('hiddenElement');
+            dataCleaningFields.classList.add('hiddenElement');
+            databaseFields.classList.add('hiddenElement');
+            modelFields.classList.remove('hiddenElement');
             webSiteCreationFields.classList.add('hiddenElement');
             break;
         case 'doc':
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.add('hiddenElement');
             webSiteCreationFields.classList.add('hiddenElement');
             dataCleaningFields.classList.add('hiddenElement');
             break;
-        case 'test':
-            webSiteCreationFields.classList.add('hiddenElement');
-            dataCleaningFields.classList.add('hiddenElement');
+        case 'web':
+            testFields.classList.add('hiddenElement');
+            businessFields.classList.add('hiddenElement');
+            dataFields.classList.add('hiddenElement');
+            webSiteCreationFields.classList.remove('hiddenElement');
             break;
     }
 });

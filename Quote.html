@@ -21,17 +21,91 @@
                 <p>We only quote for a few functions or pages at a time.</p>
                 <p>A project may be made up of multiple pieces of work, with there corresponding quotes.</p>
                 <form action="/submit-quote" method="post">
+
+                    <div class="form-group">
+                        <label for="jobDesciption">Job Description:</label>
+                        <textarea id="jobDesciption" name="jobDesciption" rows="7" placeholder="Please provide a brief description of your project"></textarea>
+                    </div>
                     
                     <div class="form-group">
                         <label for="idServiceType">Service Type:</label>
                         <select id="idServiceType" name="serviceType">
                             <option value=""></option>
-                            <option value="web">WebSite Creation</option>
-                            <option value="data">Data Cleansing and Analysis</option>
-                            <option value="doc">Technical Documentation</option>
                             <option value="test">Automated testing</option>
+                            <option value="business">Business Analysis</option>
+                            <option value="data">Data Cleansing and Analysis</option>
+                            <option value="database">Database Design</option>
+                            <option value="model">System modeling</option>
+                            <option value="sysAna">System Analysis</option>
+                            <option value="doc">Technical Documentation</option>
+                            <option value="web">WebSite Creation</option>
                         </select>
                     </div>
+
+                    <div id="testFields" class="hiddenElement">
+                    
+                    </div>
+
+                    <div id="businessFields" class="hiddenElement">
+                    
+                    </div>
+
+                    <div id="dataFields" class="hiddenElement">
+                    
+                        <div class="form-group">
+                            <label for="idpages">Number of Tables:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="30" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idpages">Number of Fields:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="100" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idfunctions">Number of records:</label>
+                            <input type="number" id="idfunctions" name="quantity" min="1" max="10000" required>
+                        </div>
+                    </div>
+
+                    <div id="databaseFields" class="hiddenElement">
+                    
+                    </div>
+
+                    <div id="modelFields" class="hiddenElement">
+                    
+                    </div>
+
+                    <div id="sysAnaFields" class="hiddenElement">
+                    
+                    </div>
+
+                    <div id="docFields" class="hiddenElement">
+
+                        <label for="idDocumenationType">Documentation Type:</label>
+                        <select id="idDocumentationType" name="documentationType">
+                            <option value=""></option>
+                            <option value="how">How to guide</option>
+                            <option value="tech">Technical specification</option>
+                            <option value="req">Requirement specification</option>
+                        </select>
+                    
+                        <div class="form-group">
+                            <label for="idpages">Number of Tables:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="30" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idpages">Number of Fields:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="100" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idfunctions">Number of records:</label>
+                            <input type="number" id="idfunctions" name="quantity" min="1" max="10000" required>
+                        </div>
+                    </div>
+
                     <div id="webSiteCreationFields" class="hiddenElement">
                     
                         <div class="form-group">
@@ -47,24 +121,6 @@
                         <div class="form-group">
                             <label for="idfunctions">Number of Functions:</label>
                             <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
-                        </div>
-                    </div>
-
-                    <div id="dataCleaningFields" class="hiddenElement">
-                    
-                        <div class="form-group">
-                            <label for="idpages">Number of Tables:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="30" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="idpages">Number of Fields:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="100" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="idfunctions">Number of records:</label>
-                            <input type="number" id="idfunctions" name="quantity" min="1" max="10000" required>
                         </div>
                     </div>
                     
