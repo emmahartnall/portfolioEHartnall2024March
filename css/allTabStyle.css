@@ -9,7 +9,6 @@ body {
     background-color: #c8ece3;
 }
 
-
 .transparent-section{
     background-color: white;
     padding: 20px;
@@ -37,6 +36,7 @@ nav ul li {
     display: inline;
     margin: 0 10px;
 }
+
 /* Default link color */
 header nav ul li a {
     color: #5d7ea1; /* Blue color */
@@ -60,6 +60,7 @@ header nav ul li a:active {
 main {
     padding: 20px;
 }
+
 footer {
     background: #209878;
     text-align: center;
@@ -67,4 +68,26 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+input[type="submit"], 
+button {
+    background-color: #2ccea3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:focus, 
+button:focus{
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px #209878; /* Add a custom focus effect */
+}
+  
+input[type="submit"]:hover, 
+button:hover {
+    background-color: #145a47;
 }

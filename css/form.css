@@ -33,26 +33,4 @@ body {
     border-radius: 4px;
     resize: vertical;
 }
-.form-group button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.form-group button:hover {
-    background-color: #45a049;
-}
 
-.form-group submit {
-    background-color: #54bedb;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.form-group submit:hover {
-    background-color: #376099;
-}
