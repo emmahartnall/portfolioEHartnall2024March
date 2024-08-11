@@ -1,4 +1,5 @@
 document.getElementById('idServiceType').addEventListener('change', function() {
+    document.getElementById('result').innerHTML = ""
     
     switch (this.value) {
         case 'test':
@@ -28,7 +29,7 @@ document.getElementById('idServiceType').addEventListener('change', function() {
             databaseFields.classList.add('hiddenElement');
             modelFields.classList.add('hiddenElement');
             sysAnaFields.classList.add('hiddenElement');
-            docFields.classList.add('hiddenElement')
+            docFields.classList.add('hiddenElement');
             webSiteCreationFields.classList.add('hiddenElement');
             break;
         case 'database':
@@ -85,7 +86,44 @@ document.getElementById('idServiceType').addEventListener('change', function() {
 });
 
 function calcPriceEstimate(){
+    var serviceName = document.getElementById('idServiceType').value;
+    var resultOfCalculation = "yet to be determined"
 
-    document.getElementById('result').innerHTML = "Estimated price: $300"
+    switch (serviceName) {
+        case 'test':
+            resultOfCalculation = "";
+            
+            
+            break;
+        case 'business':
+            
+            
+            break;
+        case 'data':
+            
+            
+            break;
+        case 'database':
+            
+            
+            break;
+        case 'model':
+           
+            
+            break;
+        case 'sysAna':
+            
+            
+            break;
+        case 'doc':
+            
+            
+            break;
+        case 'web':
+           
+            
+            break;
+    }
+    document.getElementById('result').innerHTML = resultOfCalculation;
 
 }
