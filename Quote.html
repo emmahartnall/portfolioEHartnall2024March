@@ -17,9 +17,9 @@
     <main>
         <section class="transparent-section">
             <div class="form-container">
-                <h1>Price Estimate or Quote</h1>
-                <p>We only quote for a small piece of work at a time</p>
-                <p>A project can be made up of multiple pieces of work and their corresponding quotes.</p>
+                <h1>Price Estimate</h1>
+                <p>We only quote for a few functions or pages at a time.</p>
+                <p>A project may be made up of multiple pieces of work, with there corresponding quotes.</p>
                 <form action="/submit-quote" method="post">
                     
                     <div class="form-group">
@@ -32,7 +32,7 @@
                             <option value="test">Automated testing</option>
                         </select>
                     </div>
-                    <div id="webFields" class="hiddenElement">
+                    <div id="webSiteCreationFields" class="hiddenElement">
                     
                         <div class="form-group">
                             <label for="idpages">Number of Pages or tabs:</label>
@@ -47,6 +47,24 @@
                         <div class="form-group">
                             <label for="idfunctions">Number of Functions:</label>
                             <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
+                        </div>
+                    </div>
+
+                    <div id="dataCleaningFields" class="hiddenElement">
+                    
+                        <div class="form-group">
+                            <label for="idpages">Number of Tables:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="30" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idpages">Number of Fields:</label>
+                            <input type="number" id="idpages" name="quantity" min="1" max="100" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idfunctions">Number of records:</label>
+                            <input type="number" id="idfunctions" name="quantity" min="1" max="10000" required>
                         </div>
                     </div>
                     
