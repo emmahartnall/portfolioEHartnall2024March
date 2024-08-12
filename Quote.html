@@ -18,8 +18,10 @@
         <section class="transparent-section">
             <div class="form-container">
                 <h1>Price Estimate</h1>
-                <p>We only quote for a few functions or pages at a time.</p>
-                <p>A project may be made up of multiple pieces of work, with there corresponding quotes.</p>
+                    <p>We provide quotes based on number of functions, number of pages, number of requirements etc. 
+                    ensuring clarity and precision in our pricing.</p>
+                    <p>Each project can be composed of multiple chunks of work, each with its own quote. 
+                    This approach allows for better budget management and transparency throughout the development process.</p>
                 <form id="calcPriceEstimate">
 
                     <div class="form-group">
@@ -29,8 +31,8 @@
                     
                     <div class="form-group">
                         <label for="idServiceType">Service Type:</label>
-                        <select id="idServiceType" name="serviceType">
-                            <option value=""></option>
+                        <select id="idServiceType" name="serviceType" required>
+                            <option value="" disabled selected>Select an option</option>
                             <option value="business">Business Analysis</option>
                             <option value="data_cleansing">Data Cleansing</option>
                             <option value="data_analysis">Data Analysis</option>
@@ -47,30 +49,49 @@
                     </div>
 
                     <div id="businessFields" class="hiddenElement">
-                    
+                        <div class="form-group">
+                            <label for="idfunctions">Number of screens:</label>
+                            <input type="number" id="idRequirements" name="requirements"  max="50">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idfunctions">Number of features:</label>
+                            <input type="number" id="idfeatures" name="features"  max="50">
+                        </div>
                     </div>
 
                     <div id="dataCleansingFields" class="hiddenElement">
-                    
                         <div class="form-group">
                             <label for="idpages">Number of Tables:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="30" required>
+                            <input type="number" id="idpages" max="30" >
                         </div>
 
                         <div class="form-group">
                             <label for="idpages">Number of Fields:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="100" required>
+                            <input type="number" id="idpages" max="100" >
                         </div>
 
                         <div class="form-group">
                             <label for="idfunctions">Number of records:</label>
-                            <input type="number" id="idfunctions" name="quantity" min="1" max="10000" required>
+                            <input type="number" id="idfunctions"  max="10000">
                         </div>
                     </div>
 
-   
                     <div id="dataAnalysisFields" class="hiddenElement">
-                                    
+                        <div class="form-group">
+                            <label for="idSources">Number of data sources:</label>
+                            <input type="number" id="idSources"  max="5">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idGraphs">Number of graphs or charts:</label>
+                            <input type="number" id="idGraphs"  max="5">
+                        </div>     
+
+                        <div class="form-group">
+                            <label for="idReports">Number of reports:</label>
+                            <input type="number" id="idReports"  max="5">
+                        </div>  
                     </div>
 
                     <div id="dataModelFields" class="hiddenElement">
@@ -116,18 +137,18 @@
                     <div id="webSiteCreationFields" class="hiddenElement">
                     
                         <div class="form-group">
-                            <label for="idpages">Number of Pages or tabs:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                            <label for="idpages">Number of Screens:</label>
+                            <input type="number" id="idpages"  max="20" >
                         </div>
 
                         <div class="form-group">
                             <label for="idpages">Number of Pictures:</label>
-                            <input type="number" id="idpages" name="quantity" min="1" max="10" required>
+                            <input type="number" id="idpages"  max="20" >
                         </div>
 
                         <div class="form-group">
                             <label for="idfunctions">Number of Functions:</label>
-                            <input type="number" id="idfunctions" name="quantity" min="1" max="10" required>
+                            <input type="number" id="idfunctions" max="20" >
                         </div>
                     </div>
                     

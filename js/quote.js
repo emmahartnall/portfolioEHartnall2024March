@@ -4,6 +4,9 @@ document.getElementById('idServiceType').addEventListener('change', function() {
    hideAllFieids();
     
     switch (this.value) {
+        case 'business':
+            businessFields.classList.remove('hiddenElement');
+            break;
         case 'data_cleansing':
             dataCleansingFields.classList.remove('hiddenElement');
             break;
