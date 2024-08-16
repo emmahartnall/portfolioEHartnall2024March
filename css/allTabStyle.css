@@ -9,22 +9,15 @@ body {
     background-color: #c8ece3;
 }
 
-.transparent-section{
-    background-color: white;
-    padding: 20px;
-    margin: 50px;
-    border-radius: 8px;
-    opacity: 0.8;
-}
-
-.background-image{
-    background-image: url('../images/homePageBackground.jpg');
-    opacity:50%;
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    margin: 50px;
-    border-radius: 8px;
+/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background: rgba(4, 45, 26, 0.899);
+    text-align: center;
 }
 
 nav ul {
@@ -45,20 +38,16 @@ header nav ul li a {
 
 /* Link color on hover */
 header nav ul li a:hover {
-    color: #793869; /* Darker blue */
+    color: #ec2c35; 
 }
 
 /* Link color on active/visited */
 header nav ul li a:visited {
-    color: #5db198; /* Purple */
+    color: #eef5f1; 
 }
 
 header nav ul li a:active {
     color: #459381; /* Red */
-}
-
-main {
-    padding: 20px;
 }
 
 footer {
@@ -70,6 +59,7 @@ footer {
     width: 100%;
 }
 
+/* buttons */
 input[type="submit"], 
 button {
     background-color: #2ccea3;
@@ -90,5 +80,41 @@ button:focus{
 input[type="submit"]:hover, 
 button:hover {
     background-color: #145a47;
+}
+
+/* classes */
+.background-image{
+    background-image: url('../images/homePageBackground.jpg');
+    opacity:50%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 8px;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10vw; 
+    height: auto;
+}
+
+.heading {
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.spacer{
+    height: 27vh;
+}
+
+.transparent-section{
+    background-color: white;
+    border-radius: 8px;
+    opacity: 0.8;
 }
 
