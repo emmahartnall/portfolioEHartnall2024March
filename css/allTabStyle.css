@@ -51,9 +51,8 @@ header nav ul li a:active {
 }
 
 footer {
-    background: #209878;
+    background: rgba(4, 45, 26, 0.899);
     text-align: center;
-    padding: 1rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -62,7 +61,7 @@ footer {
 /* buttons */
 input[type="submit"], 
 button {
-    background-color: #2ccea3;
+    background-color: rgba(4, 45, 26, 0.899);;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -105,6 +104,11 @@ button:hover {
     font-size: 3vw;
     text-align: center;
     font-weight: bold;
+    color: aliceblue;
+}
+
+.footer {
+    text-align: center;
     color: aliceblue;
 }
 

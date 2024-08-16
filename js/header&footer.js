@@ -25,7 +25,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <footer>
-        <p>&copy; 2024 Hartnall Digital Solutions. All rights reserved. ABN: 58 764 846 959   
+        <p class="footer">&copy; 2024 Hartnall Digital Solutions. All rights reserved. ABN: 58 764 846 959   
         <a href="https://www.linkedin.com/company/hartnall-digital-solutions/">
             <img src="images/LI-Logo.png" alt="LinkedIn" style="height: 1em; vertical-align: middle;"></a></p>
         </footer>
