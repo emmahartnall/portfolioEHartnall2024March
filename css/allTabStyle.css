@@ -122,6 +122,10 @@ button:hover {
     height: 27vh;
 }
 
+.spacer2{
+    height: 10vh;
+}
+
 .transparent-section{
     margin:2%;
     padding: 2%;
