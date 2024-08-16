@@ -134,3 +134,20 @@ button:hover {
     opacity: 0.8;
 }
 
+.profile-image {
+    float: left;
+    margin-right: 40px;
+    width: 5vw; /* Set a fixed width for the photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the photo circular */
+}
+
+.text-content {
+    float: left; /* Float text content to the left */
+    width: 60%; /* Adjust width as needed */
+    gap: 20px;
+    align-items: left;
+}
+
+
+
