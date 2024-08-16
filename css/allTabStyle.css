@@ -98,6 +98,13 @@ button:hover {
     color: aliceblue;
 }
 
+.heading-container {
+    position: absolute;  /* or 'fixed' if you want it to stay in place while scrolling */
+    top: 0;
+    right: 0;
+    width: 90%;
+}
+
 .footer {
     text-align: center;
     color: aliceblue;
@@ -133,6 +140,3 @@ button:hover {
     gap: 20px;
     align-items: left;
 }
-
-
-
