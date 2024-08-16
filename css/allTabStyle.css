@@ -20,6 +20,12 @@ header {
     text-align: center;
 }
 
+header .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -96,7 +102,7 @@ button:hover {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: 10vw; 
+    width: 10%; 
     height: auto;
 }
 
