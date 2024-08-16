@@ -25,8 +25,8 @@ header .icon {
     top: 50%;
     transform: translateY(-50%);
     left: 2%;
-    width: 10%; 
-    height: auto;
+    height: 20vh;
+    width: auto; 
 }
 
 nav ul {
@@ -92,7 +92,7 @@ button:hover {
 }
 
 .heading {
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: center;
     font-weight: bold;
     color: aliceblue;
