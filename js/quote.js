@@ -62,9 +62,22 @@ function hideAllFieids(){
 
 function calcPriceEstimate(){
     var serviceName = document.getElementById('idServiceType').value;
-    var resultOfCalculation = "yet to be determined"
+    var resultOfCalculation = 0;
+    var resultToBeDisplayed = "Call for price estimate";
 
     switch (serviceName) {
+        case 'business':
+            const nScreens = document.getElementById('idscreens').value;
+            const nRules = document.getElementById('idrules').value;
+            const nStories = document.getElementById('idstories').value;
+            const nMeetings = document.getElementById('idmeetings').value;
+            //const nDD = document.getElementById('idDD').value;
+            //const nPhoneCalls = document.getElementById('idPhoneCalls').value;
+           
+            //resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200) + (nDD * 100) + (nPhoneCalls * 50);
+            resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200);
+            alert(resultOfCalculation);
+            break;
         case 'data_cleansing':
             
             break;
@@ -99,5 +112,6 @@ function calcPriceEstimate(){
            
             break;
     }
-    document.getElementById('result').innerHTML = resultOfCalculation;
+    resultToBeDisplayed = resultOfCalculation > 0 ? "Estimated price: $" + resultOfCalculation : resultToBeDisplayed;
+    document.getElementById('result').innerHTML = resultToBeDisplayed;;
 }

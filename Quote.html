@@ -16,7 +16,7 @@
         <section class="transparent-section">
             <div class="form-container">
                 <h1>Price Estimate</h1>
-                    <p>We provide quotes based on number of functions, number of pages, number of requirements etc. 
+                    <p>We provide quotes based on number of features,
                     ensuring clarity and precision in our pricing.</p>
                     <p>Each project can be composed of multiple chunks of work, each with its own quote. 
                     This approach allows for better budget management and transparency throughout the development process.</p>
@@ -48,6 +48,11 @@
 
                     <div id="businessFields" class="hiddenElement">
                         <div class="form-group">
+                            <label for="idstories">Number of user stories:</label>
+                            <input type="number" id="idstories"  value="0" min="0" max="40">
+                        </div>
+
+                        <div class="form-group">
                             <label for="idscreens">Number of screens:</label>
                             <input type="number" value="0" min="0"id="idscreens"  max="5">
                         </div>
@@ -58,13 +63,18 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="idstories">Number of user stories:</label>
-                            <input type="number" id="idstories"  value="0" min="0" max="40">
+                            <label for="idDDs">Number of Data Dictionary items:</label>
+                            <input type="number"  id="idDDs"  value="0" min="0" max="200">
                         </div>
 
                         <div class="form-group">
-                            <label for="idmeetings">One hour Meetings:</label>
-                            <input type="number"  id="idmeetings"  value="0" min="0"max="4">
+                            <label for="idmeetings">Number of hours of Meetings:</label>
+                            <input type="number"  id="idmeetings"  value="0" min="0" max="4">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="idphonecalls">Number of phone calls:</label>
+                            <input type="number"  id="idphonecalls"  value="0" min="0" max="10">
                         </div>
                     </div>
 
