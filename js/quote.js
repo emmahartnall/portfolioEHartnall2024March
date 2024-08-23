@@ -71,12 +71,10 @@ function calcPriceEstimate(){
             const nRules = document.getElementById('idrules').value;
             const nStories = document.getElementById('idstories').value;
             const nMeetings = document.getElementById('idmeetings').value;
-            //const nDD = document.getElementById('idDD').value;
-            //const nPhoneCalls = document.getElementById('idPhoneCalls').value;
+            const nDD = document.getElementById('idDDs').value;
+            const nPhoneCalls = document.getElementById('idphonecalls').value;
            
-            //resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200) + (nDD * 100) + (nPhoneCalls * 50);
-            resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200);
-            alert(resultOfCalculation);
+            resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200) + (nDD * 100) + (nPhoneCalls * 50);
             break;
         case 'data_cleansing':
             
