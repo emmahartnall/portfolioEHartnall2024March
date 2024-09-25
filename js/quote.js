@@ -73,7 +73,6 @@ function calcPriceEstimate(){
             const nMeetings = document.getElementById('idmeetings').value;
             const nDD = document.getElementById('idDDs').value;
             const nPhoneCalls = document.getElementById('idphonecalls').value;
-           
             resultOfCalculation = (nScreens * 400) + (nRules * 50) + (nStories * 50) + (nMeetings * 200) + (nDD * 100) + (nPhoneCalls * 50);
             break;
         case 'data_cleansing':
