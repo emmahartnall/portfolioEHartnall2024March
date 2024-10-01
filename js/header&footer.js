@@ -5,16 +5,18 @@ class MyHeader extends HTMLElement {
         <header>
           <img src="./images/logo/LogoInverted-transparent.png" alt="Hartnall Digital Solutions Icon" class="icon">
           <div class="heading-container">
-          <h1 class="heading">Hartnall Digital Solutions</h1>
-          <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="people.html">People</a></li>
-                <li><a href="quote.html">Price Estimate</a></li>
-                <li><a href="websites.html">Example Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
+            <h1 class="heading">Hartnall Digital Solutions</h1>
+            <h2 class="heading">Canberra Australia</h2>
+          
+            <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="people.html">People</a></li>
+                  <li><a href="quote.html">Price Estimate</a></li>
+                  <li><a href="websites.html">Example Projects</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
           </div>
         </header>
       `;
