@@ -7,7 +7,6 @@ class MyHeader extends HTMLElement {
           <div class="heading-container">
             <h1 class="heading">Hartnall Digital Solutions</h1>
             <h2 class="heading">Canberra Australia</h2>
-          
             <nav>
               <ul>
                   <li><a href="index.html">Home</a></li>
