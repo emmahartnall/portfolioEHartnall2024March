@@ -53,6 +53,39 @@
     resize: vertical;
 }
 
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    height: 14em;
+    width:auto;
+    margin-right: 10px;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.header-right {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
 .heading {
     font-size: 4vh;
     text-align: center;
@@ -105,7 +138,7 @@
 
 /* Active tab styling */
 .nav-item a.active {
-    background-color: #007bff;
+    background-color: #3eb081;
 }
 
 .service {
