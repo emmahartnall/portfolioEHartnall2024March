@@ -53,6 +53,17 @@
     resize: vertical;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px; /* Adds spacing between grid items */
+  }
+  
+  .grid-item {
+    /* Styling for the grid items (optional) */
+    padding: 10px;
+  }
+
 /* Header styling */
 .header {
     white-space: nowrap; /* Prevent wrapping of child elements */
